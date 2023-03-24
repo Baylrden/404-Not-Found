@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --dark: #333333;
+    --lightDark:#4F4F4F;
+    --mainFont:'Space Mono', 'Arial';
+    --secondaryFont:'Inconsolata','Arial';
+    --footerFont: 'Montserrat','sans-serif';
+    
+}
+
+section #content{
+    font-family: var(--mainFont);
+    color: var(--Dark);
+    font-weight: 700;
+    font-size: 64px;
+    width: 586px;
+    height: 190px;
+    top: 265px;
+    left: 735px;
+    letter-spacing: -0.035em;
+    line-height: 95px;
+    
+    
+}
+
+h3{
+    font-family: var(--secondaryFont);
+    font-weight: 700;
+    line-height: 25.18px;
+    margin-top: 2.5rem;
+    margin-left: 4.8125rem;
+    width: 133px;
+    height: 25px;
+    top: 40px;
+    left: 77px;
+    letter-spacing: -0.08em;
+}
+
+.scareCrow img{
+    width: 539.22px;
+    height: 447.43px;
+    top: 265px;
+    left: 77px;
+    bottom: 34.03%;
+    right: 57.21%;
+   
+
+}
+
+.paragraph{
+    font-family: var(--mainFont);
+    color: var(--lightDark);
+    font-size: 24px;
+    font-weight: 400;
+    width: 381px;
+    height: 108px;
+    top: 491px;
+    left: 736px;
+    letter-spacing: -0.035em;
+    line-height: 36px;
+    margin-top: 36px;
+    
+
+}
+
+section #myButton{
+  /*padding: 1.5rem 2.6875rem;*/
+  font-family: var(--mainFont);
+  background-color: var(--dark);
+  color: #FFFFFF;
+  width: 216px;
+  height: 68px;
+  top: 663px;
+  left: 740px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  margin-top: 64px;
+  
+}
+
+footer p{
+    font-family: var(--footerFont);
+    color: #BDBDBD;
+    width: 287px;
+    height: 17px;
+    top: 1039px;
+    left: 577px;
+    font-weight: 700;
+    line-height: 17px;
+    
+}
+
+
+
+
+
+section{
+    display: flex;
+    margin-top: 175px;
+}
+
+
+
