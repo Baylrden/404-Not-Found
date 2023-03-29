@@ -1,0 +1,86 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --dark: #333333;
+  --lightDark:#4F4F4F;
+  --mainFont:'Space Mono', 'Arial';
+  --secondaryFont:'Inconsolata','Arial';
+  --footerFont: 'Montserrat','sans-serif';
+}
+
+h3{
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  line-height: 25.18px;
+  letter-spacing: -0.08em;
+  padding: 3rem 4.8125rem;
+}
+
+section{
+  display: flex;
+  justify-content: space-evenly;
+  min-width: min-content;
+  margin: 0 20px;
+}
+
+.img-box{
+  width: 539.22px;
+  height: 447.43px;
+}
+
+.img-box img{
+  width: 100%;
+}
+
+section .content-right p{
+  font-family: var(--mainFont);
+  color: var(--lightDark);
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 36px;
+
+  width: 381px;
+  margin-top: 18px;
+  margin-bottom: 36px;
+}
+
+section #content{
+  font-family: var(--mainFont);
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--Dark);
+  letter-spacing: -0.035em;
+  line-height: 95px;
+
+  width: 586px;
+  height: 190px;
+}
+
+section #myButton{
+font-family: var(--mainFont);
+background-color: var(--dark);
+color: #FFFFFF;
+width: 216px;
+height: 68px;
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: -0.035em;
+margin-top: 64px;
+}
+
+#footer p{
+  font-family: var(--footerFont);
+  color: #BDBDBD;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+  font-size: 17px;
+  padding: 100px 0px 0px 0px;
+}
